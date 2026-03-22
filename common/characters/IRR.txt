@@ -1,0 +1,17 @@
+characters = {
+	IRR_Reza_Khan = {
+        name = IRR_Reza_Khan_name
+        portraits = {
+            civilian = {
+            large = "gfx/leaders/IRR/IRR_Reza_Khan.png"
+            }
+       	}
+		country_leader= {
+			ideology= despotism
+			desc = IRR_Reza_Khan_desc
+			traits= {
+
+			}
+		}
+    }
+}
