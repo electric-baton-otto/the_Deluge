@@ -1,0 +1,26 @@
+
+state={
+	id = 561
+	name = "STATE_561" # Amur
+	manpower = 54281
+	
+	state_category = rural
+
+	history = {
+
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = FER
+
+		buildings = {
+			arms_factory = 1
+		}
+
+	}
+
+	provinces = {
+		7691 8544 12660
+	}
+
+	local_supplies = 2.0 
+}

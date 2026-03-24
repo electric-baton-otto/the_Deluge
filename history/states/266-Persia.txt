@@ -11,7 +11,7 @@ state={
 	state_category = city
 
 	history={
-		owner = IRR
+		owner = PER
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -28,14 +28,13 @@ state={
 			}
 		}
 		victory_points = {
-			10837 114514 
+			10837 10 
 		}
 		add_core_of = PER
-		add_core_of = IRR
 	}
 
 	provinces={
-		4580 7602 10385 10768 10837 
+		7969 10385 10768 10837 15153 18722 18729 18733 18735 18736 18737 18750 18755 18758 18766 18776 18777 18801 18807 18808 18810 18813 
 	}
 
 	local_supplies=5.0 

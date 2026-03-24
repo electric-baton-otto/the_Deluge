@@ -1,0 +1,31 @@
+state={
+	id=1100
+	name="STATE_1100"
+	state_category = rural
+	history={
+		owner = SIK
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SIK
+		add_claim_by = RAJ
+		add_core_of = CHI
+		add_core_of = PRC 
+		IF = {
+			limit = {
+				has_dlc = "No Compromise, No Surrender"
+			}
+			transfer_state_to = KHM
+			add_core_of = KHM
+		}
+		1938.3.7 = {
+			owner = SIK
+			controller = SIK
+		}
+	}
+	provinces={
+		16158 
+	}
+	manpower=9347
+	local_supplies=0
+}

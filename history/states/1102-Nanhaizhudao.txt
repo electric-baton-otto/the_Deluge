@@ -1,0 +1,34 @@
+state={
+	id=1102
+	name="STATE_1102"
+	state_category = town
+	history={
+		victory_points = {
+			19950 1
+		}
+		owner = GXC
+		buildings = {
+			infrastructure = 1
+			naval_base = 1
+		}
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC 
+		IF = {
+			limit = {
+				has_dlc = "No Compromise, No Surrender"
+			}
+			transfer_state_to = GDC
+			add_core_of = GDC
+		}
+		1938.10.7 = {
+			owner = CHI
+			controller = JAP
+		}
+	}
+	provinces={
+		19950 19951 
+	}
+	manpower=12324
+	local_supplies=0
+}

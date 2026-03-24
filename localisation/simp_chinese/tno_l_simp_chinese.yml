@@ -1,0 +1,429 @@
+﻿l_simp_chinese:
+ antarctica: "南极洲" #大陆
+ antarctica_adj: "南极的"
+ VICTORY_POINTS_17744: " " #空白名称
+ wasteland_focus: "荒地焦点树"
+ ZZZ_isnt_ai: "[ZZZ.GetNameDef] 是玩家"
+ antarctica_game_rule_folder: "南极洲"
+ antarctica_content: "南极洲内容状态"
+ RULE_GROUP_ANTARCTICA: "南极洲规则设定"
+ DISABLE_ANTARCTIC_CONTENT_GAMERULE_NO: "禁用南极洲内容"
+ DISABLE_ANTARCTIC_CONTENT_GAMERULE_NO_desc: "所有国家的南极洲内容将被禁用，冰冻荒地将保持原状。\n\n您仍然可以对§H南极洲§! 宣战。"
+ DISABLE_ANTARCTIC_CONTENT_GAMERULE_YES: "启用南极洲内容"
+ DISABLE_ANTARCTIC_CONTENT_GAMERULE_YES_desc: "南极洲内容将被启用，所有国家只要满足要求即可自由访问。"
+ DISABLE_ANTARCTIC_CONTENT_GAMERULE_LIMITED: "受限的南极洲内容"
+ DISABLE_ANTARCTIC_CONTENT_GAMERULE_LIMITED_desc: "只有拥有历史宣称和探险队的国家才能与§H南极洲§!互动。\n这包括：\n\n@ARG 阿根廷\n@AST 澳大利亚\n@CHL 智利\n@FRA 法国\n@GER 德意志帝国\n@NZL 新西兰\n@NOR 挪威\n@ENG 英国\n@USA 美国"
+ #RULE_OPTION_ZZZ_FRAGMENTED: "已分割"
+ #RULE_OPTION_ZZZ_FRAGMENTED_desc: "根据南极条约体系，历史上的南极宣称将在游戏开始时转移给各自的国家。\n\n§R禁用任何南极基地的创建。§!"
+ EAST_ANTARCTICA: "东南极洲"
+ NORTH_GRAHAM_LAND: "北格雷厄姆地" #原为南极半岛
+ CHL_NORTH_GRAHAM_LAND: "奥希金斯特北部土地"
+ ARG_NORTH_GRAHAM_LAND: "圣马丁北部土地"
+ ALEXANDER_ISLAND: "亚历山大岛"
+ ADELIE_LAND: "阿黛利地"
+ FRA_ADELIE_LAND: "阿黛利地"
+ VICTORIA_LAND: "奥茨地" #原为维多利亚地
+ GEORGE_VI_SOUND: "乔治六世海峡"
+ EAST_ELLSWORTH_LAND: "东埃尔斯沃思地"
+ WEST_ELLSWORTH_LAND: "西埃尔斯沃思地"
+ MARIE_BYRD_LAND: "艾茨海岸" #原为玛丽·伯德地
+ ROSS_DEPENDENCY: "西罗斯属地" #原为罗斯属地
+ PRINCESS_ASTRID_COAST: "阿斯特丽德公主海岸" #原为毛德皇后地
+ GER_PRINCESS_ASTRID_COAST: "东新士瓦本"
+ WILKES_LAND: "威尔克斯地"
+ PRINCESS_ELIZABETH_LAND: "伊丽莎白公主地"
+ WEST_ANTARCTICA: "玛丽·伯德地" #原为西南极洲
+ RONNE_ICE_SHELF: "龙尼冰架"
+ COATS_LAND: "科茨地"
+ BRUNT_ICE_SHELF: "布伦特冰架"
+ PRINCESS_MARTHA_COAST: "玛莎公主海岸"
+ GER_PRINCESS_MARTHA_COAST: "西新士瓦本"
+ AMSTERDAM_ISLAND: "圣保罗和阿姆斯特丹群岛"
+ FRA_AMSTERDAM_ISLAND: "圣保罗和阿姆斯特丹群岛"
+ HEARD_ISLAND: "赫德岛"
+ SVALBARD: "斯瓦尔巴群岛"
+ GER_SVALBARD: "斯匹次卑尔根"
+ ENG_SVALBARD: "斯匹次卑尔根"
+ BOUVET_ISLAND: "布韦岛"
+ TRISTAN_DA_CUNHA: "特里斯坦-达库尼亚"
+ WALLIS_AND_FUTUNA: "瓦利斯和富图纳"
+ MARQUESAS_ISLANDS: "马克萨斯群岛"
+ CLIPPERTON_ISLAND: "克利珀顿岛"
+ COOK_ISLANDS: "库克群岛"
+ PETER_I_ISLAND: "彼得一世岛"
+ PALMER_LAND: "帕默地"
+ RIISER_LARSEN_ICE_SHELF: "里斯尔-拉森冰架"
+ FIMBUL_ICE_SHELF: "菲姆布尔冰架"
+ PRINCESS_RAGNHILD_COAST: "拉格希尔德公主海岸"
+ PRINCE_HARALD_COAST: "哈拉尔-奥拉夫王子海岸"
+ ENDERBY_LAND: "恩德比地"
+ EAST_ROSS_DEPENDENCY: "东罗斯属地"
+ BERKNER_ICE_SHELF: "伯克纳冰架"
+ LAKE_UNTERSEE: "洪堡山脉"
+ SOUTH_ORKNEY_ISLANDS: "南奥克尼群岛"
+ SOUTH_SHETLAND_ISLANDS: "南设得兰群岛"
+ ARG_SOUTH_SHETLAND_ISLANDS: "南设得兰群岛"
+ CHL_SOUTH_SHETLAND_ISLANDS: "南设得兰群岛"
+ SOUTH_GRAHAM_LAND: "南格雷厄姆地"
+ CHL_SOUTH_GRAHAM_LAND: "奥希金斯特南部土地"
+ ARG_SOUTH_GRAHAM_LAND: "圣马丁南部土地"
+ TRINITY_PENINSULA: "特里尼蒂半岛"
+ ARG_TRINITY_PENINSULA: "特里尼达半岛"
+ CHL_TRINITY_PENINSULA: "路易斯·费利佩半岛"
+ LARSEN_ICE_SHELF: "拉森冰架"
+ BLACK_COAST: "布莱克海岸"
+ QUEEN_ELIZABETH_LAND: "伊丽莎白女王地"
+ NORTH_TRINITY_COAST: "北特里尼蒂海岸"
+ CHL_NORTH_TRINITY_COAST: "科瓦东加湾"
+ ADELAIDE_ISLAND: "阿德莱德岛"
+ MAC_ROBERTSON_LAND: "麦克.罗伯逊地"
+ QUEEN_MARY_LAND: "玛丽皇后地"
+ SAUNDERS_COAST: "桑德斯海岸"
+ BAKUTIS_COAST: "巴库蒂斯海岸"
+ ROSS_ISLAND: "罗斯岛"
+
+#战略区域
+ SCOTIA_SEA: "斯科舍海"
+ ROSS_SEA: "罗斯海"
+ AMUNDSEN_SEA: "阿蒙森海"
+ WEDDEL_SEA: "威德尔海"
+ URVILLE_SEA: "迪维尔海"
+ DAVIS_SEA: "戴维斯海"
+ HAAKON_VII_SEA: "哈康七世海"
+ KARA_SEA: "喀拉海"
+ BEAUFORT_SEA: "波弗特海"
+ EAST_SIBERIAN_SEA: "东西伯利亚海"
+ NORTHWEST_PASSAGES: "西北航道"
+ ANTARCTIC_PENINSULA: "南极半岛"
+ QUEEN_MAUD_LAND: "毛德皇后地"
+
+#胜利点 #在定位键开头加上'BASE_'很重要，以确保省份不会被立即重命名。
+ #新士瓦本
+ BASE_VICTORY_POINTS_17695: "希尔马赫站"
+ BASE_VICTORY_POINTS_17742: "格拉夫·斯佩海军上将港"
+ BASE_VICTORY_POINTS_17792: "阿米尼乌斯站" #未使用
+ BASE_VICTORY_POINTS_17794: "狼" #未使用
+ BASE_VICTORY_POINTS_17804: "元首站" #未使用
+ BASE_VICTORY_POINTS_17807: "DGfP VI" #未使用
+ BASE_VICTORY_POINTS_17810: "格奥尔格·冯·诺伊迈尔基地"
+ BASE_VICTORY_POINTS_17772: "新贝希特斯加登" #可重命名为211基地
+
+ #阿根廷
+ BASE_VICTORY_POINTS_17591: "梅尔基奥尔基地" #未使用
+ BASE_VICTORY_POINTS_17594: "奥卡达斯基地"
+ BASE_VICTORY_POINTS_17639: "卡马拉基地" #未使用
+ BASE_VICTORY_POINTS_17677: " deception基地" #未使用
+ BASE_VICTORY_POINTS_17715: "埃斯佩兰萨基地"
+ BASE_VICTORY_POINTS_17732: "卡拉尼基地" #未使用
+ BASE_VICTORY_POINTS_17796: "布朗站" #未使用
+ BASE_VICTORY_POINTS_17797: "盖特威峰补给站" #未使用
+ BASE_VICTORY_POINTS_17809: "普里马韦拉基地"
+ BASE_VICTORY_POINTS_17811: "圣马丁基地"
+ #智利
+ BASE_VICTORY_POINTS_17666: "阿图罗·普拉特基地"
+ BASE_VICTORY_POINTS_17667: "贝尔纳多·奥希金斯基地"
+ BASE_VICTORY_POINTS_17787: "卡雷拉基地"
+ BASE_VICTORY_POINTS_17805: "阿图罗·亚历山德里总统海军基地"
+ BASE_VICTORY_POINTS_17813: "卡瓦哈尔中尉基地"
+
+ #法国
+ BASE_VICTORY_POINTS_17612: "马丹港"
+
+ #挪威
+ BASE_VICTORY_POINTS_17785: "里斯尔-拉森站" #虚构
+ BASE_VICTORY_POINTS_17799: "克里斯蒂安森站" #虚构
+
+ #澳大利亚
+ BASE_VICTORY_POINTS_17808: "莫森站"
+ BASE_VICTORY_POINTS_17786: "戴维斯站"
+ BASE_VICTORY_POINTS_17790: "威尔克斯站"
+ BASE_VICTORY_POINTS_17814: "恩德比站" #虚构
+
+ #新西兰
+ NZL_BASE_VICTORY_POINTS_17802: "斯科特基地"
+ BASE_VICTORY_POINTS_17706: "哈利特站"
+
+ #美国
+ USA_BASE_VICTORY_POINTS_17802: "麦克默多站"
+ BASE_VICTORY_POINTS_17791: "小美洲三号站"
+ USA_BASE_VICTORY_POINTS_17811: "东基地"
+
+ #英国
+
+#南极洲国家
+ ZZZ_Antarctic_Anarchy: "南极荒原"
+ ZZZ_Antarctic_Anarchy_desc: "南极洲存在的少量生命往往栖息在海岸边，在那里海洋至少为它们 bleak 的生活提供了一些慰藉。越接近这片冰冻大陆的黑暗中心，地形就变得越不适于生存。锋利的雪面波纹、无底的冰裂缝和雪盲症都在挑战着生命的存在。只有新到来的人类才会如此愚蠢地冒险进入这样的地方。"
+ ZZZ_hidden: "$ZZZ_Antarctic_Anarchy$"
+ ZZZ_no_authority: "无管辖机构"
+ ZZZ: ""
+ ZZZ_DEF: "$antarctica$"
+ ZZZ_ADJ: "$antarctica_adj$"
+
+#理念
+ ARG_south_orkney_war: "南奥克尼战争"
+ ENG_south_orkney_war: "$ARG_south_orkney_war$"
+
+#决议
+ #通用决议
+ antarctica_decisions: "南极探险"
+ antarctic_decision_flavor: "南极洲是一个寒冷且严酷的地方。直到20世纪，这片世界最南端的大陆在很大程度上还是不为人知的。这片土地被世界列强分割和宣称，但这些宣称在外交上分量很轻，因为各国更倾向于关注世界上更适宜居住的地区。"
+ #antarctica_decisions_desc: "$antarctic_decision_flavor$\n\n在§R50%§!的$ANTARCTIC_TENSION_HEADER$时，我们将能够创建§H基地§!。\n在§R90%§!的$ANTARCTIC_TENSION_HEADER$时，我们将能够宣称§H冰川§!和§H冰架§!，从而将我们的§H基地§!连接起来。\n增加我们在该大陆的§G活动§!将提高$ANTARCTIC_TENSION_HEADER$。\n\n当前$ANTARCTIC_TENSION_HEADER$：[?ANTARCTIC_TENSION_VAR|%|0|-]"
+ antarctic_development: "南极基地发展"
+ antarctica_decisions_desc: "$antarctic_decision_flavor$"
+ GENERIC_form_antarctica_department: "正式成立南极部门"
+ GENERIC_form_antarctica_department_desc: "在南极洲建立立足点可以为我们带来显著的科研和军事优势。"
+ #通用发展决议
+ military_exercises_in_antarctic_base: "在[FROM.GetName]进行军事演习"
+ expand_antarctic_base: "扩建[FROM.GetCapitalVictoryPointName]"
+ antarctic_science_station: "在[FROM.GetCapitalVictoryPointName]建造研究实验室"
+ #德国决议
+ GER_GENERIC_form_antarctica_department: "设立德国南极部门"
+ GER_send_ritscher_to_antarctica: "组织第三次德国南极探险"
+ GER_establish_schirmacher_station: "建立希尔马赫站"
+ GER_establish_neumayer_station: "建立诺伊迈尔站"
+ GER_establish_untersee_base: "建立$BASE_VICTORY_POINTS_17772$"
+ GER_install_thermal_plants_in_base_211: "在$BASE_VICTORY_POINTS_17772$安装地热工厂"
+ #阿根廷决议
+ ARG_GENERIC_form_antarctica_department: "设立阿根廷南极部门"
+ ARG_expand_orcadas_base: "扩建$BASE_VICTORY_POINTS_17594$"
+ ARG_expand_orcadas_base_desc: "既然我们已经确保了南奥克尼群岛的安全，现在可以开始大幅扩建$BASE_VICTORY_POINTS_17594$。\n建造人员营房和一个小型港口是个好的开始。"
+ ARG_militarize_south_orkney_islands: " militarize 南奥克尼群岛"
+ south_orkney_war_mission: "南奥克尼战争"
+ ARG_establish_esperanza_base: "建立$BASE_VICTORY_POINTS_17715$"
+ ARG_establish_san_martin_base: "建立$BASE_VICTORY_POINTS_17811$"
+ ARG_establish_primavera_base: "建立$BASE_VICTORY_POINTS_17809$"
+ #智利决议
+ CHL_GENERIC_form_antarctica_department: "颁布第1541号法令"
+ CHL_chilean_antarctic_expedition: "组织[CHL.GetAdjective]南极探险"
+ CHL_establish_o_higgins_station: "建立$BASE_VICTORY_POINTS_17667$"
+ CHL_establish_prat_station: "建立$BASE_VICTORY_POINTS_17666$"
+ CHL_establish_carvajal_station: "建立$BASE_VICTORY_POINTS_17813$"
+ CHL_establish_carrera_station: "建立$BASE_VICTORY_POINTS_17787$"
+ CHL_establish_allesandri_station: "建立$BASE_VICTORY_POINTS_17805$"
+ #法国决议
+ FRA_GENERIC_form_antarctica_department: "设立法属南方和南极领地"
+ FRA_survey_adelie_land: "勘测$FRA_ADELIE_LAND$"
+ FRA_establish_port_martin: "建立$BASE_VICTORY_POINTS_17612$"
+ #挪威决议
+ NOR_GENERIC_form_antarctica_department: "将毛德皇后地置于挪威主权之下"
+ NOR_send_whaling_ships_to_antarctica: "派遣捕鲸船前往南极洲"
+ NOR_establish_riiser_larsen_station: "建立$BASE_VICTORY_POINTS_17785$"
+ NOR_establish_christiensen_station: "建立$BASE_VICTORY_POINTS_17799$"
+ #澳大利亚决议
+ #AST_GENERIC_form_antarctica_department:
+ AST_continue_the_antarctic_research_expedition: "继续南极研究探险"
+ AST_establish_mawson_station: "建立$BASE_VICTORY_POINTS_17808$"
+ AST_establish_davis_station: "建立$BASE_VICTORY_POINTS_17786$"
+ AST_establish_wilkes_station: "建立$BASE_VICTORY_POINTS_17790$"
+ AST_establish_enderby_station: "建立$BASE_VICTORY_POINTS_17814$"
+ #新西兰决议
+ NZL_GENERIC_form_antarctica_department: "成立新西兰南极局"
+ NZL_geological_survey_antarctic_expedition: "组织地质调查南极探险"
+ NZL_establish_scott_base: "建立$NZL_BASE_VICTORY_POINTS_17802$"
+ NZL_establish_hallett_station: "建立$BASE_VICTORY_POINTS_17706$"
+ #美国决议
+ USA_GENERIC_form_antarctica_department: "建立美国南极研究计划"
+ USA_establish_little_america: "建立$BASE_VICTORY_POINTS_17791$"
+ USA_establish_east_base: "建立$USA_BASE_VICTORY_POINTS_17811$"
+ #英国决议
+ #通用决议
+ GENERIC_consolidate_antarctic_claims: "巩固南极宣称"
+ GENERIC_claim_ice_shelf: "占领[FROM.GetName]"
+
+#工具提示
+ antarctica_department_tt: "允许我们向§H南极洲§!派遣§H探险队§!"
+ can_claim_antarctica_tt: "可以宣称§H南极洲§!"
+ GENERIC_antarctic_expedition_tt: "我们将调查在§H南极洲§!建立基地的可行性。"
+ stopped_antarctic_research: "我们将§R不再§!能够调查在§H南极洲§!建立基地的可行性。"
+ create_antarctic_base: "创建一个名为§H$BASE$§!的§H南极站§!，拥有§H$VALUE$§! £victory_points£ §H胜利点§!。"
+ ANTARCTIC_TENSION_HEADER: "§H南极紧张度§!"
+ add_0_05_to_antarctic_tension_tt: "将$ANTARCTIC_TENSION_HEADER$提高§R5%§!"
+ add_0_025_to_antarctic_tension_tt: "将$ANTARCTIC_TENSION_HEADER$提高§R2.5%§!"
+ add_0_1_to_antarctic_tension_tt: "将$ANTARCTIC_TENSION_HEADER$提高§R10%§!"
+ antarctic_exercises: "在§H南极洲§!进行演习"
+ will_flee_to_antarctica_tt: "§R投降时，高级官员和部分军队将能够逃往南极洲。§!"
+ hold_south_orkney_for_35_days_tt: "如果宣战，§H[ENG.GetNameWithFlag]§!将有§H90§!天的时间夺取§H南奥克尼群岛§!。\n否则，将签署白和平，群岛将归我们所有。\n\n$dont_escalate_war_arg_eng_tt$"
+ ENG_hold_south_orkney_for_35_days_tt: "我们将在§H90§!天内从§H[ARG.GetNameWithFlag]§!手中夺取§H南奥克尼群岛§!。\n否则，将签署白和平，群岛将归他们所有。\n\n$dont_escalate_war_arg_eng_tt$"
+ ARG_eng_may_respond_harsly_tt: "§R[ENG.GetName]可能会对此行动做出强烈反应。\n如果他们已经分心，他们更有可能接受。§!"
+ ENG_if_we_make_antarctic_department_can_take_back_south_orkney_tt: "如果我们正式成立自己的§H南极部门§!，我们将能够夺回§H南奥克尼群岛§!"
+ dont_escalate_war_arg_eng_tt: "§R将战争升级到南奥克尼群岛以外将产生严重后果。§!"
+ south_orkney_war_timeout_effect_tt: "如果联合王国在持续时间结束时控制着南奥克尼群岛，则该群岛将被联合王国永久占领。否则，该群岛将无限期地留在阿根廷手中。"
+ is_establishing_antarctic_base: "已经在§H南极洲§!建立基地"
+ GENERIC_consolidate_antarctic_claims_tt: "任何我们拥有多数影响力的§H南极§!州都将转移给我们。\n§R此决议通过后，将无法再宣称任何南极州。§!\n目前包括："
+ abandon_antarctic_base: "拆除§H$BASE$§!。"
+ USA_deconstruct_east_base_arg_presence: "由于§H[ARG.GetAdjective]§!的存在，§H$USA_BASE_VICTORY_POINTS_17811$§!的地点将落入§H[ARG.GetNameDef]§!的势力范围。§!§!"
+ is_antarctic_base_tt: "是§H南极站§!"
+ CHL_cant_construct_o_higgins_base_tt: "§R我们将无法在$NORTH_TRINITY_COAST$建造任何南极基地§!"
+
+ decision_cost_CP_10: "£command_power §Y10§!" #真的是paradox?
+ decision_cost_CP_10_blocked: "£command_power §R10§!"
+ decision_cost_CP_10_tooltip: "采取此决议需要花费 £command_power §Y10§!"
+
+ decision_cost_CP_5: "£command_power §Y5§!"
+ decision_cost_CP_5_blocked: "£command_power §R5§!"
+ decision_cost_CP_5_tooltip: "采取此决议需要花费 £command_power §Y5§!"
+
+ decision_cost_MP_300_CP_15: "£manpower_texticon §Y300§! £command_power §Y15§!"
+ decision_cost_MP_300_CP_15_blocked: "£manpower_texticon §R300§! £command_power §R15§!"
+ decision_cost_MP_300_CP_15_tooltip: "采取此决议需要花费 £manpower_texticon §Y300§! 和 £command_power §Y15§!"
+
+#事件
+
+ #新闻
+ tno_news.1.t: "[ARG.GetName]赢得南奥克尼战争"
+ tno_news.1.desc: "今天早些，[ENG.GetNameDef]和[ARG.GetNameDef]的代表齐聚蒙得维的亚，商讨解决南奥克尼战争。此次和平会议决定[ENG.GetNameDef]应允许阿根廷在南奥克尼群岛永久驻军。\n\n由于[ENG.GetNameDef]在未能夺取群岛后在南大西洋的处境日益艰难，[ENG.GetLeader]政府认为除了签署所提出的协议外别无选择。"
+ tno_news.1.a: "这是一场灾难！" #eng
+ tno_news.1.b: "[ROOT.GetNameDef]的又一胜利。" #arg
+ tno_news.1.c: "一个有趣的事态发展。"
+
+ tno_news.2.t: "[ENG.GetName]赢得南奥克尼战争"
+ tno_news.2.desc: "今天早些，[ENG.GetNameDef]和[ARG.GetNameDef]的代表齐聚里约热内卢，商讨结束南奥克尼战争。此次和平会议决定[ARG.GetNameDef]应永久撤出所有在南纬60°以南的军队，并且[ARG.GetNameDef]将停止所有与南极洲相关的活动。\n\n由于[ARG.GetNameDef]在南奥克尼的主力部队已经投降，[ARG.GetLeader]认为除了签署所提出的协议外别无选择。"
+ tno_news.2.a: "[ROOT.GetNameDef]的又一胜利。" #eng
+ tno_news.2.b: "这是一场灾难！" #arg
+ tno_news.2.c: "一个有趣的事态发展。"
+
+ tno_news.3.t: "南奥克尼战争"
+ tno_news.3.desc: "尽管许多人希望南美洲实现持久和平，但最近因[ARG.GetNameDef] militarize 南奥克尼群岛而引发的事件，源于南大西洋的争端，已演变成一场全面战争。\n\n由于[ARG.GetNameDef]和[ENG.GetNameDef]相互指责对方发动战争，据推测[ENG.GetAdjective]军队正在准备对群岛进行两栖攻击，而[ARG.GetAdjective]军方则被证实正在加强群岛的防御。"
+ tno_news.3.a: "我们将粉碎他们。" #eng
+ tno_news.3.b: "蠢货。" #arg
+ tno_news.3.c: "真是多事之秋。"
+
+#通用
+ antarctica.2.t: "[FROM.FROM.GetCapitalVictoryPointName]的研究设施"
+ antarctica.2.desc: "我们将在[FROM.FROM.GetCapitalVictoryPointName]建造哪种类型的设施？"
+ antarctica.2.a: "建造陆地设施以便在严冬条件下测试是审慎的。"
+ antarctica.2.b: "有人提到海军了吗？"
+ antarctica.2.c: "空气动力学设施将是我们基地的一个很好的补充。"
+ antarctica.2.d: "没有国家会在这里找到我们的核秘密！"
+
+
+#德国
+ GER_antarctica.1.t: "[GetYear]年德国南极探险"
+ GER_antarctica.1.desc: "施瓦本兰号的主要目标是经济性质的，特别是建立捕鲸站和为德国捕鲸船队获取渔场，以减少帝国对工业油、脂肪和膳食脂肪进口的依赖。准备工作在严格保密下进行，因为该企业还负责对未来占领西经20°至东经20°之间南极领土的可行性进行评估。"
+ GER_antarctica.1.a: "这听起来是个绝妙的主意！"
+ GER_antarctica.1.b: "我们无法抽调这些资源。"
+#阿根廷
+ #事件链开始。阿根廷采取' militarize 南奥克尼群岛'决议时的事件。
+ ARG_antarctica.1.t: " militarize 南奥克尼群岛"
+ ARG_antarctica.1.desc: "阿根廷已向国际社会通报了在南奥克尼群岛建立永久基地的事宜。该站迄今为止一直隶属于农业部，直到有机会解除文职管理并将其替换为阿根廷海军人员。\n转移人员可能使我们能够进一步增加阿根廷在南极洲的存在。\n我们应该这样做吗？"
+ ARG_antarctica.1.a: "解除文职管理。"
+ ARG_antarctica.1.b: "再考虑一下..."
+
+ #当英国不采取任何行动时给阿根廷的事件。
+ ARG_antarctica.2.t: "[ENG.GetName]未干涉南奥克尼事务"
+ ARG_antarctica.2.desc: "正如我们所料，[ENG.GetNameDef]已决定不干涉我们 militarize 南奥克尼群岛。"
+ ARG_antarctica.2.a: "一切按计划进行。"
+
+ #当英国做出强烈反应时给阿根廷的事件
+ ARG_antarctica.3.t: "[ENG.GetName]抗议我们在南奥克尼的行动"
+ ARG_antarctica.3.desc: "[ENG.GetLeader]已对我们的行动做出回应，拒绝让步，并威胁如果我们侵犯其对南奥克尼的主权将发动战争。战争可能迫在眉睫。"
+ ARG_antarctica.3.a: "我们会让他们见识一下！"
+ ARG_antarctica.3.b: "我们无能为力，让步吧。"
+
+ #当阿根廷 militarize 南奥克尼时给英国的事件
+ ARG_antarctica.4.t: "[ARG.GetName] militarize 南奥克尼群岛"
+ ARG_antarctica.4.desc: "待办"
+ ARG_antarctica.4.a: "要求他们立即停止。"
+ ARG_antarctica.4.b: "我们现在无法处理此事。"
+
+ # 当阿根廷拒绝离开南奥克尼时给英国的事件
+ ARG_antarctica.5.t: "[ARG.GetName]拒绝离开南奥克尼群岛"
+ ARG_antarctica.5.desc: "待办"
+ ARG_antarctica.5.a: "我们将夺回南奥克尼。"
+ ARG_antarctica.5.b: "战争不可避免，让步吧。"
+
+ #事件链结束。阿根廷在 militarize 南奥克尼后让步时给英国的事件
+ ARG_antarctica.6.t: "[ARG.GetName]让步"
+ ARG_antarctica.6.desc: "待办"
+ ARG_antarctica.6.a: "很好，保持群岛非军事化。" #将岛屿转移给南极无政府状态
+ ARG_antarctica.6.b: "在岛上驻军，以防万一。" #使岛屿成为英国所有
+
+ #事件链结束。当英国不想开战但提出了抗议时给阿根廷的事件。
+ ARG_antarctica.7.t: "[ENG.GetName]放弃南奥克尼群岛"
+ ARG_antarctica.7.desc: "面对我们两国之间爆发的战争，[ENG.GetLeader]已同意'暂时'允许阿根廷在群岛驻军。"
+ ARG_antarctica.7.a: "好消息！"
+
+ #如果阿根廷采取'要求东基地'决议，给美国的事件。
+ ARG_antarctica.8.t: "[ARG.GetName]要求从[1056.GetCapitalVictoryPointName]撤军"
+ ARG_antarctica.8.desc: "[ARG.GetNonIdeologyName]总统向我们发出了最后通牒，声称我们在帕默半岛的站是对其领土完整的侵犯。信函进一步指出，如果我们不开始从[1056.GetCapitalVictoryPointName]撤出，他们将自行武力夺取该地点。我们应如何回应？"
+ ARG_antarctica.8.a: "我们不能冒险疏远[ARG.GetNonIdeologyName]。"
+ ARG_antarctica.8.b: "他们以为自己是谁？"
+
+ #如果美国从东基地撤军，给阿根廷的事件
+ ARG_antarctica.9.t: "[USA.GetNameDefCap]放弃了东基地！"
+ ARG_antarctica.9.desc: "为避免战争别无选择，[USA.GetLeader]总统已同意我们的最后通牒，目前正在撤离[1056.GetCapitalVictoryPointName]。"
+ ARG_antarctica.9.a: "一场伟大的胜利！" #增加5点战争支持度
+
+ #如果美国拒绝离开东基地，给阿根廷的事件
+ ARG_antarctica.10.t: "[USA.GetNameDefCap]拒绝离开东基地！"
+ ARG_antarctica.10.desc: "[USA.GetNameDef]没有认真对待我们的最后通牒，谴责了我们的行动，并准备在爆发敌对行动时保卫东基地。"
+ ARG_antarctica.10.a: "[USA.GetAdjective]人是愚蠢的。" #开始边界战争 阿根廷应该在边境附近已有部队。美国将获得一个装备简陋的6宽度师进行防御。
+ ARG_antarctica.10.b: "也许战争不符合[ARG.GetNameDef]的利益。" #损失50点政治点数
+
+ #如果美国将东基地输给阿根廷，给美国的事件 #美国战败
+ ARG_antarctica.11.t: "东基地陷落"
+ ARG_antarctica.11.desc: "东基地已落入[ARG.GetAdjective]军队之手！我们现在该怎么办？"
+ ARG_antarctica.11.a: "我们还能有什么选择？" #无事发生
+ ARG_antarctica.11.b: "这还不是结局。" #获得对阿根廷的征服目标并损失10点战争支持度
+
+ #如果阿根廷攻占东基地，给阿根廷的事件 #阿根廷胜利
+ ARG_antarctica.12.t: "[ARG.GetName]突袭东基地！"
+ ARG_antarctica.12.desc: "继[ARG.GetAdjective]和[USA.GetAdjective]士兵在$SOUTH_GRAHAM_LAND$发生冲突后，据报道[ARG.GetNameDef]已成功占领东基地。"
+ ARG_antarctica.12.a: "一场伟大的胜利！" #阿根廷
+
+ #美国胜利 #阿根廷战败 #僵局 的共享事件
+ ARG_antarctica.13.t: "[ARG.GetAdjective]战败！"
+ ARG_antarctica.13.desc: "继[ARG.GetAdjective]和[USA.GetAdjective]士兵在$SOUTH_GRAHAM_LAND$发生冲突后，[USA.GetAdjective]军队成功击退了[ARG.GetAdjective]军队。"
+ ARG_antarctica.13.a: "一次教科书式的行动！" #美国
+ ARG_antarctica.13.b: "不幸。" #阿根廷
+
+ #当阿根廷建造埃斯佩兰萨基地时给智利的事件
+ ARG_antarctica.15.t: "[ARG.GetName]在特里尼蒂半岛建立基地"
+ ARG_antarctica.15.desc: "[ARG.GetNameDef]秘密地在特里尼蒂半岛建立了一个基地，粗暴地打破了南极的现状！我们应如何回应？"
+ ARG_antarctica.15.a: "我们将质疑他们的宣称。" #允许创建南极基地。不需要部门或探险队。
+ ARG_antarctica.15.b: "与我们无关。" #阿根廷将占领北特里尼蒂海岸，智利将无法建造里克尔梅·奥希金斯基地
+
+#智利
+ CHL_antarctica.1.t: "[CHL.GetAdjective]南极探险"
+ CHL_antarctica.1.desc: "待办"
+ CHL_antarctica.1.a: "我们应该开始着手建立一个站。"
+ CHL_antarctica.1.b: "这不值得花费我们的时间。"
+ CHL_antarctica.1.c: "留意[ARG.GetAdjective]或[ENG.GetAdjective]的存在。"
+#法国
+ FRA_antarctica.1.t: "勘测$FRA_ADELIE_LAND$"
+ FRA_antarctica.1.desc: "我们对$FRA_ADELIE_LAND$的探险取得了成功，建立基地的机会已经出现。"
+ FRA_antarctica.1.a: "这是个绝妙的主意！"
+ FRA_antarctica.1.b: "我们不需要这个。"
+#挪威
+ NOR_antarctica.1.t: "捕鲸船抵达南极洲"
+ NOR_antarctica.1.desc: "我们对$QUEEN_MAUD_LAND$的探险取得了成功，建立捕鲸站或基地的机会已经出现。"
+ NOR_antarctica.1.a: "这是个绝妙的主意！"
+ NOR_antarctica.1.b: "我们不需要这个。"
+#澳大利亚
+ AST_antarctica.1.t: "莫森的第三次南极探险"
+ AST_antarctica.1.desc: "待办"
+ AST_antarctica.1.a: "我们将采纳伊瓦特的提议。"
+ AST_antarctica.1.b: "我们目前对建立永久基地没有兴趣。"
+#新西兰
+ 
+#美国
+ USA_antarctica.1.t: "伯德的第三次南极探险"
+ USA_antarctica.1.desc: "美国南极服务探险队的两艘船共载有125人离开美国。组成探险队的大部分人员是从军队、政府文职机构和科研机构中征召的。\n探险队的目标由[USA.GetLeader]总统的命令概述。\n总统希望建立两个基地：东基地，位于沙尔科岛附近或玛格丽特湾；以及西基地，位于爱德华七世地附近，但如果无法实现，则需调查鲸湾的一个地点，并测绘西经72°至148°之间的大陆海岸线。"
+ USA_antarctica.1.a: "考虑建立基地。"
+ USA_antarctica.1.b: "这些地点都不合适。终止项目。"
+#英国
+ 
+#通用
+ antarctica.1.t: "我们的南极探险队归来"
+ antarctica.1.desc: "我们最近的南极探险队带着 promising 的结果归来了。他们勘测了我们感兴趣的大部分区域，并选定了永久站的潜在地点。\n现在，我们是否应该在南极洲建立一个基地呢？"
+ antarctica.1.a: "我们会考虑的。"
+ antarctica.1.b: "再考虑一下..."
+
+
+
+ PRC_integration_decision_soviet_states_2: "$PRC_integration_decision_soviet_states$"
+ PRC_integration_decision_soviet_states_2_desc: "$PRC_integration_decision_soviet_states_desc$"
+ CHI_core_asian_state_2: "$CHI_core_asian_state$"
+ CHI_core_asian_state_2_desc: "$CHI_core_asian_state_desc$"
+ CHI_warlord_core_manchuria_2: "$CHI_warlord_core_manchuria$"
+ CHI_warlord_core_manchuria_2_desc: "$CHI_warlord_core_manchuria_desc$"

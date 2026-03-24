@@ -1,0 +1,189 @@
+PRC_integration_decision_cat = {
+	PRC_integration_decision_soviet_states_2 = {
+
+		priority = 1000
+
+		cost = 50
+
+		days_remove = 60
+
+
+		state_target = yes
+
+		#target_array = PRC.PRC_northern_target_states_array
+
+
+		target_trigger = {
+			FROM = {
+				NOT = {
+					is_core_of = PRC
+				}
+                OR = {
+                    state = 1099
+                    state = 1103
+                    state = 1104
+                    state = 1105
+					state = 1106
+					state = 1107
+					state = 985
+                    state = 537
+                    state = 655
+                }
+			}
+		}
+
+		visible = {
+			has_completed_focus = PRC_dare_to_win
+			## Has completed focus only, always visible otherwise
+		}
+
+		available = {
+			controls_state = FROM
+			has_completed_focus = PRC_dare_to_win
+
+			FROM = {
+				NOT = {
+					has_state_flag = PRC_is_integrating_a_state
+				}
+			}
+		}
+
+		complete_effect = {
+			FROM = {
+				set_state_flag = PRC_is_integrating_a_state
+			}
+			## Set flag
+		}
+
+		cancel_trigger = {
+			NOT = {
+				controls_state = FROM
+			}
+			## No longer controls state
+		}
+
+
+		cancel_effect = {
+			FROM = {
+				clr_state_flag = PRC_is_integrating_a_state
+			}
+			## Remove is doing integrating decision flag
+		}
+
+
+		modifier = {
+			stability_weekly = -0.01
+		}
+
+		remove_effect = {
+			## Remove is doing integrating decision flag
+			FROM = {
+				clr_state_flag = PRC_is_integrating_a_state
+				add_core_of = PRC
+			}
+
+		}
+
+
+
+	}
+}
+
+CHI_warlord_core_territories_cat = {
+	CHI_warlord_core_manchuria_2 = {
+	
+		icon = GFX_decision_generic_form_nation
+	
+		ai_will_do = {
+			base = 50
+		}
+	
+		priority = 25
+	
+			#highlight_states = {
+			#	highlight_state_targets = {
+			#		state = FROM 
+			#	} 
+			#}
+		
+		allowed = {
+				
+		}
+			
+		visible = {
+			has_completed_focus = CHI_sea_push_into_manchuria
+		}
+			
+		available = {
+			FROM = {
+				NOT = { has_state_flag = CHI_coring_state_in_progress_flag }
+			}
+			FROM = {
+				compliance > 45
+			}
+		}
+	
+		state_target = any_controlled_state
+		    
+		target_trigger = {
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+                OR = {
+                    state = 1099
+                    state = 1103
+                    state = 1104
+                    state = 1105
+					state = 1106
+					state = 1107
+					state = 985
+                    state = 537
+                    state = 655
+                }
+			}
+		}
+		    on_map_mode = map_only
+	
+		    cost = 50		
+	
+			fire_only_once = yes
+	
+			days_remove = 35
+	
+			complete_effect = {
+				hidden_effect = {
+					FROM = {
+						set_state_flag = { flag = CHI_coring_state_in_progress_flag value = 1 	days = 31 }
+					}
+				}
+			}
+	
+			remove_effect = {
+				hidden_effect = {
+					FROM = {
+						clr_state_flag = CHI_coring_state_in_progress_flag
+					}
+				}
+	
+				FROM = {
+					add_core_of = ROOT
+				}
+				
+			}
+	
+			cancel_trigger = {
+				FROM = {
+					NOT = { is_fully_controlled_by = ROOT }
+				}
+			}
+	
+			cancel_effect = {
+				hidden_effect = {
+					FROM = {
+						clr_state_flag = CHI_coring_state_in_progress_flag
+					}
+				}
+			}
+		}
+}

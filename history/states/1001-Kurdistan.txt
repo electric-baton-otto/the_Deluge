@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = IRR
+		owner = PER
 		victory_points = {
 			4943 5
 		}
@@ -19,11 +19,10 @@ state={
 		}
 		add_core_of = PER
 		add_core_of = KUR
-		add_core_of = IRR
 	}
 
 	provinces={
-		4943 9816 5098 12773
+		4943 9816 12773 18756 18762 18767 18770 18782 18806 
 	}
 
 	local_supplies=0.0 

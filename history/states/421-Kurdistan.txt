@@ -7,17 +7,16 @@ state={
 	state_category = rural
 
 	history={
-		owner = IRR
+		owner = PER
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = PER
 		add_core_of = KUR
-		add_core_of = IRR
 	}
 
 	provinces={
-		829 5050 10774 
+		829 5098 13610 15147 18745 18773 18781 
 	}
 
 	local_supplies=0.0 

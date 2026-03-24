@@ -1,6 +1,9 @@
 version="0.1"
+replace_path="history/states"
+replace_path="map/strategicregions"
 tags={
-	"Alternative History"
+	"Map"
 }
-name="the Deluge"
+picture="thumbnail"
+name="THE-DELUGE"
 supported_version="1.17.*"
