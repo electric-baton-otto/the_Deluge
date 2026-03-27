@@ -23,8 +23,8 @@ state={
 		add_core_of = FRA
 	}
 
-	provinces={
-		762 764 780 3589 3768 6784 11713 17998 
+	provinces = {
+		762 764 780 3589 3768 6784 11713 17998 3762 9736
 	}
 
 	local_supplies=9.0 

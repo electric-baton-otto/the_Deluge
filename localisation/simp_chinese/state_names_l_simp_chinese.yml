@@ -1391,5 +1391,7 @@
  BRM_STATE_1106: "克钦邦"
  STATE_1107: "胡康河谷"
  BRM_STATE_1107: "实皆北部"
-
+ STATE_1108:0 "洛林"
+ STATE_1109:0 "南锡"
+ STATE_1110:0 "加来海峡"
  ANTARCTICA: "南极洲"
